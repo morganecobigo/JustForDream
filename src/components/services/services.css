@@ -1,0 +1,234 @@
+.services {
+  text-align: center;
+  padding: 60px;
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+
+.services-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px 20px;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.services-card {
+  width: 25%;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+.services-card:hover {
+  transform: scale(1.05);
+}
+.service-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.prestations_subtitle {
+  color: #ff00ff;
+  font-size: 14px;
+}
+.prestations_title {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 12px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff;
+  border-radius: 20px;
+  font-size: 12px;
+}
+/* première modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ff00ff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  position: relative;
+  text-align: center;
+}
+
+.modal-image {
+  width: 100%;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.modal-content h4 {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+.modal-content p {
+  color: #fff;
+  font-size: 15px;
+}
+.skills-used {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-used p {
+  border: 2px solid #e5dcd3;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px;
+}
+.modal_phone {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  font-size: 14px;
+}
+.modal_phone:hover {
+  background-color: black;
+  color: white;
+}
+/* seconde modal */
+.modal-two {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.phone_modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  width: 20%;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+}
+.close_button {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.service-title {
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  font-weight: bold;
+}
+.phone {
+  color: black;
+  margin-top: 0;
+}
+/* Styles pour les tablettes (écran jusqu'à 768px) */
+@media screen and (max-width: 768px) {
+  .services {
+    padding: 0;
+    padding-bottom: 80px;
+  }
+  .services-title {
+    padding-top: 0;
+  }
+  .services-container {
+    gap: 50px;
+  }
+  .services-card {
+    width: 20%;
+  }
+  .prestations_subtitle {
+    font-size: 12px;
+  }
+  .prestations_title {
+    font-size: 10px;
+  }
+  .close_button {
+    top: 3px;
+  }
+  .service-title {
+    padding: 0;
+  }
+}
+/* Styles pour les mobiles (écran jusqu'à 480px) */
+@media screen and (max-width: 480px) {
+  .services-title {
+    font-size: 18px;
+  }
+  .services-card {
+    width: 60%;
+  }
+  .modal-content {
+    width: 75%;
+  }
+  .modal-content p {
+    font-size: 12px;
+  }
+  .skills-used {
+    gap: 4px;
+  }
+  .phone_modal {
+    width: 50%;
+  }
+}
