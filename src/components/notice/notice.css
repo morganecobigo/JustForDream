@@ -1,0 +1,150 @@
+.notice {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.notice h2 {
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  font-size: 20px;
+}
+
+.notice-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.button-carousel {
+  cursor: pointer;
+  margin: 67px;
+  background: transparent;
+  border: none;
+}
+.prev {
+  color: #fff;
+  font-size: 40px;
+}
+.next {
+  color: #fff;
+  font-size: 40px;
+}
+
+.notice-track {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.notice-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  flex: 0 0 calc(100% / 3);
+}
+.bubble {
+  width: 25%;
+  margin-bottom: 5px;
+}
+.notice-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+.bowtie {
+  display: flex;
+  align-items: center;
+}
+.notice-item p {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #ff00ff;
+}
+
+.leave-review {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.leave-review h3 {
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #ff00ff;
+}
+
+.review-button {
+  background-color: #000;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.review-button:hover {
+  background-color: #ff00ff;
+}
+
+.leave-review a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.leave-review a:hover {
+  text-decoration: none;
+}
+/* Styles pour les tablettes (écran jusqu'à 768px) */
+@media screen and (max-width: 768px) {
+  .button-carousel {
+    margin: 0;
+  }
+  .notice-item {
+    padding: 0;
+  }
+  .bubble {
+    margin-top: 10px;
+  }
+  .notice-item p {
+    font-size: 10px;
+    margin: 5px 5px 15px 5px;
+  }
+  .button-carousel {
+    margin: 25px;
+  }
+  .review-button {
+    font-size: 10px;
+  }
+}
+/* Styles pour les mobiles (écran jusqu'à 480px) */
+@media screen and (max-width: 480px) {
+  .notice h2 {
+    font-size: 18px;
+  }
+  .notice-item {
+    flex: 0 0 100%;
+  }
+  .button-carousel {
+    margin: 10px;
+  }
+  .leave-review h3 {
+    font-size: 14px;
+  }
+}
