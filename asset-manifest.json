@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JustForDream/static/css/main.17d0a24c.css",
-    "main.js": "/JustForDream/static/js/main.29774d91.js",
-    "static/js/488.513ec587.chunk.js": "/JustForDream/static/js/488.513ec587.chunk.js",
+    "main.js": "/JustForDream/static/js/main.9cdba228.js",
+    "static/js/462.6aea5618.chunk.js": "/JustForDream/static/js/462.6aea5618.chunk.js",
     "static/media/fond_carousel.mp4": "/JustForDream/static/media/fond_carousel.8910486dfc9895527ef3.mp4",
     "static/media/logo.gif": "/JustForDream/static/media/logo.c25f9d18846f8c5d9c0e.gif",
     "static/media/nature3.webp": "/JustForDream/static/media/nature3.cdf0fdc1f19ac022445c.webp",
@@ -59,11 +59,11 @@
     "static/media/phone.webp": "/JustForDream/static/media/phone.38375e6bccc388d7adcc.webp",
     "static/media/insta.webp": "/JustForDream/static/media/insta.e547fa71dde8a3a30bf5.webp",
     "main.17d0a24c.css.map": "/JustForDream/static/css/main.17d0a24c.css.map",
-    "main.29774d91.js.map": "/JustForDream/static/js/main.29774d91.js.map",
-    "488.513ec587.chunk.js.map": "/JustForDream/static/js/488.513ec587.chunk.js.map"
+    "main.9cdba228.js.map": "/JustForDream/static/js/main.9cdba228.js.map",
+    "462.6aea5618.chunk.js.map": "/JustForDream/static/js/462.6aea5618.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17d0a24c.css",
-    "static/js/main.29774d91.js"
+    "static/js/main.9cdba228.js"
   ]
 }
