@@ -1,6 +1,6 @@
 import React from "react";
-import backgroundImage from "../../assets/fondbio.webp";
-import photobio from "../../assets/photobio.webp";
+import backgroundImage from "../../assets/about/fondbio.webp";
+import photobio from "../../assets/about/photobio.webp";
 import "./about.css";
 
 const About = ({ id }) => {
@@ -43,7 +43,7 @@ const About = ({ id }) => {
           </p>
           <p>
             je combine mes compétences de danseur avec toujours une petite
-            touche d'humour et d’énergie typique des les spectacles
+            touche d'humour et d’énergie typique dans les spectacles
             Chippendales.{" "}
           </p>
           <p>

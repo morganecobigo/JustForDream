@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import bubble from "../../assets/iconnotice/discours-de-bulle.webp";
-import bowtieFilled from "../../assets/iconnotice/noeud-papillon-plein.webp";
-import bowtieEmpty from "../../assets/iconnotice/noeud-papillon-vide.webp";
+import bubble from "../../assets/notice/discours-de-bulle.webp";
+import bowtieFilled from "../../assets/notice/noeud-papillon-plein.webp";
+import bowtieEmpty from "../../assets/notice/noeud-papillon-vide.webp";
 import { noticeList } from "../../components/notice/noticeList";
 import "./notice.css";
 

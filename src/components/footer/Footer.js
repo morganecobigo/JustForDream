@@ -1,7 +1,7 @@
 import React from "react";
-import instaIcon from "../../assets/iconesfooter/insta.webp";
-import mailIcon from "../../assets/iconesfooter/mail.webp";
-import phoneIcon from "../../assets/iconesfooter/phone.webp";
+import instaIcon from "../../assets/footer/insta.webp";
+import mailIcon from "../../assets/footer/mail.webp";
+import phoneIcon from "../../assets/footer/phone.webp";
 import "./footer.css";
 
 function Footer() {
