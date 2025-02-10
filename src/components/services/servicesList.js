@@ -48,6 +48,5 @@ export const servicesList = [
   Faites plaisir à votre groupe et créez des souvenirs inoubliables entre copines! Contactez-nous dès maintenant pour organiser un spectacle sur mesure!`,
     image: require("../../assets/services/soireefilles.webp"),
     autres: ["ambiance festive", "pimenter une soirée"],
-    phone: "06 95 54 82 95",
   },
 ];
